@@ -16,7 +16,6 @@ public class ExercicioDificilController {
         numeros.add(0);
         numeros.add(1);
         int soma = 0;
-        int a, b, c = 0;
         if (n <= 0) {
             return new ExercicioDificilResponse(0, 0);
         }
